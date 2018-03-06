@@ -1,0 +1,22 @@
+body{
+    background-image: url("../images/background.jpg");
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: 1fr;
+}
+
+#container{
+    margin-top: 20%;
+    grid-column: 2/3;
+    
+    padding: 5%;
+    border: 4px solid antiquewhite;
+    background-color: rgba(253, 246, 224, 0.801);
+}
+
+#current-question, #button-wrapper{
+    padding: 4%;
+}
+

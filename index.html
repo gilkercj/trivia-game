@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,28 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    
-    <h2 id="current-question">Blank</h2>
+    <div id="container">
+        <h2 id="current-question">Blank</h2>
 
-    <h4 id="ans1">a</h4>
-    <h4 id="ans2">b</h4>
-    <h4 id="ans3">c</h4>
-    <h4 id="ans4">d</h4>
-
-
+        <div id="button-wrapper">
+            <button id="btn-1" class="btn" value="1">
+                <h4 id="ans1">a</h4>
+            </button>
+            <button id="btn-2" class="btn" value="2">
+                <h4 id="ans2">b</h4>
+            </button>
+            <button id="btn-3" class="btn" value="3">
+                <h4 id="ans3">c</h4>
+            </button>
+            <button id="btn-4" class="btn" value="4">
+                <h4 id="ans4">d</h4>
+            </button>
+        </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/javascript/app.js"></script>
 </body>
+
 </html>
